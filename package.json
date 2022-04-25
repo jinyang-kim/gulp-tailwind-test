@@ -1,0 +1,58 @@
+{
+  "name": "publishing-gulp-setting",
+  "version": "1.0.0",
+  "description": "publishing-gulp-setting",
+  "repository": "https://github.com/JayYang-Kim/Publishing-Gulp-Setting",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "start": "gulp",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "author": {
+    "name": "jinyang_kim",
+    "email": "sunlover011@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "babelify": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-imagemin": "^7.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "gulp.spritesmith": "^6.12.1",
+    "postcss": "^8.4.12",
+    "sass": "^1.49.11",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "firefox >= 4",
+    "safari 7",
+    "safari 8",
+    "IE 10",
+    "IE 11"
+  ]
+}
